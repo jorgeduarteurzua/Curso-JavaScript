@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- onload en Body carga al entrar en la pagina -->
+
+<body onload="mostrar()">
+
+    <h1>Eventos</h1>
+    <p id="seleccionable"></p>
+
+    <button onclick="mostrar()">CLICKEAME</button> <br>
+
+    <button onmouseover="mostrar()">Ponte encima del boton</button> <br>
+
+    <button onmouseout="mostrar()">Al salir del boton</button> <br>
+
+    <select onchange="mostrar()">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVASCRIPT">JAVASCRIPT</option>
+        <option value="REACT">REACT</option>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+</html>
